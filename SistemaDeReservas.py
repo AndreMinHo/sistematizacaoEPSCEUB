@@ -1,4 +1,4 @@
-from Agenda import Agenda
+from src.Agenda import Agenda
 
 def input_int(prompt):
     while True:

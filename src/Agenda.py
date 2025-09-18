@@ -1,6 +1,6 @@
-from Reserva import Reserva
-from Usuario import Usuario
-from Sala import Sala
+from .Reserva import Reserva
+from .Usuario import Usuario
+from .Sala import Sala
 class Agenda:
     def __init__(self):
         self.listaUsuario = []
