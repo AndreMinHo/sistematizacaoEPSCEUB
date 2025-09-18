@@ -10,8 +10,8 @@ class Agenda:
     def criarUsuario(self, usuarioID):
         self.listaUsuario.append(Usuario(usuarioID))
 
-    def criarSala(self, salaID):
-        self.listaSala.append(Sala(salaID))
+    def criarSala(self, salaID, tipo):
+        self.listaSala.append(Sala(salaID, tipo))
     
     def fazerReserva(self, ano, mes, dia, hora, usuarioID, salaID):
         self.listaReserva.append(Reserva(ano, mes, dia, hora, usuarioID, salaID))
